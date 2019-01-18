@@ -2,11 +2,13 @@
 		Changed Line Height to 1.5 (improves Legibility).
 		Use of Color to highlight important sections.
 		Increased size of Header elements to develop visual hierarchy.
-		
-		Use of sans-serif fonts for titles/headers
-		Use of Serif fonts for Article Content: 
-
+		Underlined Sub Headers (h2 elements) to help separate them from sub-sub headers
 		Use of bolded text for emphasized text in Unordered Lists.
+
+		Use of sans-serif fonts for titles/headers
+		Use of Serif fonts for Article Content to improve legibility.
+		And more!
+
 
 
 /* Font Reference
@@ -40,8 +42,12 @@ p {
 	font-size: 16px;
 	max-width: 700px;
 }
+img {
+	border-radius: 6px;
+}
 
 header {
+	margin-top: .25rem;
 	/* justify-content: space-between;
 	align-items: center; */
 	background: #FEDF64;
@@ -70,6 +76,7 @@ header {
 .intro img {
 	max-width: 300px;
 	padding: 10px;
+	border-radius: 8%;
 }
 
 
