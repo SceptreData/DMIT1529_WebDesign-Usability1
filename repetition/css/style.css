@@ -1,0 +1,153 @@
+/* 	List of Kickass Changes
+		Changed Line Height to 1.5 (improves Legibility).
+		Use of Color to highlight important sections.
+		Increased size of Header elements to develop visual hierarchy.
+		Underlined Sub Headers (h2 elements) to help separate them from sub-sub headers
+		Use of bolded text for emphasized text in Unordered Lists.
+
+		Use of sans-serif fonts for titles/headers
+		Use of Serif fonts for Article Content to improve legibility.
+		And more!
+
+
+
+/* Font Reference
+	font-family: 'Merriweather', serif;
+	font-family: 'Nunito', sans-serif;
+--------------------------*/
+
+/* Box Model Fix
+-------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+article {
+	width: 960px;
+	margin: 0 auto;
+	font-family: 'Merriweather', serif;
+	line-height: 1.5;
+}
+
+.main-content {
+	margin: 0 auto;
+	width: 700px;
+}
+
+p {
+	/* padding: 12px 0px; */
+	font-size: 16px;
+	max-width: 700px;
+}
+img {
+	border-radius: 6px;
+}
+
+header {
+	margin-top: .25rem;
+	/* justify-content: space-between;
+	align-items: center; */
+	background: #FEDF64;
+	/* text-align: center; */
+	font-family: 'Nunito', sans-serif;
+	font-weight: 600;
+	font-size: 42px;
+	padding: 20px;
+	/* border: 1px #FEDF64 solid; */
+	border-radius: 10px;
+}
+
+.author {
+	display: inline-block;
+	border-bottom: 2px solid currentColor;
+	font-size: 24px;
+}
+
+.intro {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+	padding: 5px;
+}
+
+.intro img {
+	max-width: 300px;
+	padding: 10px;
+	border-radius: 8%;
+}
+
+
+h2 {
+	display: inline-block;
+	font-family: 'Nunito', sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	padding-top: 1rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border-bottom: 1px solid black;
+}
+
+h3 {
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	padding: .5rem 0;
+}
+
+figcaption {
+	font-size: 12px;
+	text-align: center;
+}
+
+ul {
+	margin: 1rem auto;
+	max-width: 80%;
+	font-size: 16px;
+	padding: 1rem;
+	background: linear-gradient(#FEDF64, rgb(236, 215, 132));
+	border-radius: 10px;
+}
+
+li {
+	margin: .35rem 0 .35rem 1rem;
+}
+
+em {
+	font-weight: 600;
+}
+
+.conclusion-images {
+	display: flex;
+	justify-content: space-between;
+}
+
+.conclusion-img {
+	margin-right: 10px;
+}
+
+/* Diamond Shape */
+
+.diamond {
+	margin: 1rem auto;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-bottom-color: #FEDF64;
+	position: relative;
+	top: -15px;
+}
+
+.diamond:after {
+	content: " ";
+	position: absolute;
+	left: -20px;
+	top: 20px;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #FEDF64;
+}
