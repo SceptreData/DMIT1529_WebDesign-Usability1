@@ -101,6 +101,8 @@ h3 {
 figcaption {
 	font-size: 12px;
 	text-align: center;
+	font-style: italic;
+	margin-top: -.25rem;
 }
 
 ul {
@@ -120,34 +122,47 @@ em {
 	font-weight: 600;
 }
 
+section {
+	margin: 1.5rem auto;
+	padding: 1.75rem 1.5rem;
+	border-radius: 2rem;
+}
+
+section:nth-child(odd){
+	background: rgb(247, 244, 244);
+}
+
+section:nth-child(even){
+	background: rgb(221, 220, 220);
+}
+
 .conclusion-images {
 	display: flex;
 	justify-content: space-between;
 }
 
-.conclusion-img {
+.conclusion-img:first-of-type{
 	margin-right: 10px;
 }
 
-/* Diamond Shape */
-
-.diamond {
-	margin: 1rem auto;
-	width: 0;
-	height: 0;
-	border: 20px solid transparent;
-	border-bottom-color: #FEDF64;
-	position: relative;
-	top: -15px;
+.divider-diamond {
+	display: block;
+	width: 1.5rem;
+	margin: 1.25rem auto -1rem auto;
 }
 
-.diamond:after {
-	content: " ";
-	position: absolute;
-	left: -20px;
-	top: 20px;
-	width: 0;
-	height: 0;
-	border: 20px solid transparent;
-	border-top-color: #FEDF64;
+.end-of-article{
+	/* text-align: center; */
+	/* margin: 1.5rem auto; */
+	display: flex;
+	justify-content: center;
+}
+
+.end-of-article img {
+	width: 1.5rem;
+	margin-right: 4rem;
+}
+
+.end-of-article img:last-of-type {
+	margin-right: 0;
 }
