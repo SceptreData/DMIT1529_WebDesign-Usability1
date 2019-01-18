@@ -67,18 +67,36 @@ header {
 }
 
 .intro {
+	background: rgb(221, 220, 220);
+}
+
+.intro-content {
 	display: flex;
 	align-items: center;
 	margin-top: 10px;
 	padding: 5px;
 }
 
-.intro img {
+.intro-content img {
 	max-width: 300px;
 	padding: 10px;
 	border-radius: 8%;
 }
 
+.intro,
+section {
+	margin: 1.5rem auto;
+	padding: 1.75rem 1.5rem;
+	border-radius: 2rem;
+}
+
+section:nth-child(odd){
+	background: rgb(247, 244, 244);
+}
+
+section:nth-child(even){
+	background: rgb(221, 220, 220);
+}
 
 h2 {
 	display: inline-block;
@@ -122,23 +140,11 @@ em {
 	font-weight: 600;
 }
 
-section {
-	margin: 1.5rem auto;
-	padding: 1.75rem 1.5rem;
-	border-radius: 2rem;
-}
 
-section:nth-child(odd){
-	background: rgb(247, 244, 244);
-}
-
-section:nth-child(even){
-	background: rgb(221, 220, 220);
-}
 
 .conclusion-images {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 }
 
 .conclusion-img:first-of-type{
@@ -166,3 +172,4 @@ section:nth-child(even){
 .end-of-article img:last-of-type {
 	margin-right: 0;
 }
+
