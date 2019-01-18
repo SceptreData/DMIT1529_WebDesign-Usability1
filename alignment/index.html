@@ -17,18 +17,22 @@
     <section>
         <h2>Design Principle of Alignment</h2>
         <p>Alignment gives our design unity and organization and we can achieve it by creating strong edges and connecting elements within the design to something else on the page. Alignment enhances readability and allows our audience to easily find information. The alignment principle can be compared to the example of a messy closet vs a tidy, well organized closet.</p>
-        <form action="#">
-            <fieldset>
-                <legend>Please Log In</legend>
-                <label for="username">Username</label>
-                <input id="username" type="text">
-                <label for="password">Password</label>
-                <input id="password" type="password">
-                <input id="remember-user" type="checkbox">
-                <label for="remember-user">Remember Me</label>
-                <button type="submit">Sign In</button>
-            </fieldset>
-        </form>
+        <div class="form-box">
+            <form action="#">
+                <fieldset>
+                    <legend>Please Log In</legend>
+                    <label for="username">Username</label>
+                    <input id="username" type="text">
+                    <label for="password">Password</label>
+                    <input id="password" type="password">
+                    <div class="remember-container">
+                        <input id="remember-user" type="checkbox">
+                        <label for="remember-user">Remember Me</label>
+                    </div>
+                    <button type="submit">Sign In</button>
+                </fieldset>
+            </form>
+        </div>
     </section>
     <footer>
         <p>© 2018</p>
