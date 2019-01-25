@@ -1,0 +1,81 @@
+/*because I'm not using a reset for this example I'll quickly reset my margins, padding, and font-weight on all elements*/
+* {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+/* 
+	first thing is to define the leading and make a baseline font
+   	size of 100% (we assume it's 16px)
+*/
+
+body {
+	font-family: sans-serif;
+	line-height: 1.5;
+	font-size: 100%;
+}
+
+/*
+	Determine vertical Rhythm which is based on the line-height and
+	default font size.
+
+	In this case, 16px font-size * 1.5 line-height = 24px baseline grid.
+*/
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/*
+	Alignment needs the H1 to be moved over to match the rest of the text.
+*/
+h1 {
+	margin-left: 26px;
+}
+
+p {
+	margin-bottom: 24px;
+}
+
+/*
+	Padding is needed whenever this is a border or background color.
+*/
+section {
+	padding: 24px;
+	border: 2px solid #777;
+}
+
+/*
+	measure or line length should be font-size (16) * 30
+*/
+p {
+	max-width: 480px;
+}
+
+/*
+	Hierarchy can be added by size and weight. Whitespace helps!
+*/
+h1 {
+	font-size: 32px;
+	font-weight: bold;
+	margin: 48px 0;
+}
+
+h2 {
+	margin: 
+	font-size: 24px;
+	font-weight: bold;
+}
+
+/* 
+	Contrast with Background colors. Important to check the contrast levels
+	between the text color and background color.
+*/
+
+section {
+	border: none;
+	background-color: rgb(92, 92, 92);
+	/* sometimes a stark contrast is harder to read than a gentler one. */
+	color: rgb(238, 238, 238);
+}

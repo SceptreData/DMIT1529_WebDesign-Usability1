@@ -1,0 +1,153 @@
+header,
+section {
+	width: 960px;
+	margin: 0 auto;
+	line-height: 1.5;
+	font-family: sans-serif;
+}
+
+h1,
+h2,
+h3 {
+	font-size: 48px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+
+header .logo,
+header .description {
+	width: 50%;
+	float: left;
+}
+
+header .description {
+	margin-top: 15px;
+}
+
+header p.tagline {
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+header li {
+	float: left;
+	margin-right: 25px;
+}
+
+/********************** Your Code Goes Here ******************/
+
+
+section {
+	padding: 1rem 2rem 1.5rem 2rem;
+	margin: 3rem auto;
+	border: 2px solid black;
+}
+
+p {
+	width: 800px;
+	line-height: 1.25;
+}
+
+h2 {
+	border-bottom: 1px solid black;
+	margin-top: 1rem;
+	margin-bottom: .5rem;
+}
+
+h3 {
+	margin-top: 1.5rem;
+}
+
+section h3:first-of-type {
+	margin-top: 2.5rem;
+}
+
+section p:nth-of-type(2n+1) {
+	font-style: italic;
+}
+
+section p:first-of-type {
+	font-style: normal;
+}
+
+.tagline {
+	line-height: .5;
+	font-style: italic;
+	margin-left: 2px;
+}
+
+.social-media {
+	margin-left: 2px;
+}
+
+header .logo {
+	width: 35%;
+}
+
+
+.list-of-specials {
+	width: 500px;
+	border: none;
+	background: rgba(230, 228, 228, 0.616);
+	border-radius: 5px;
+	margin: 2rem 0 2rem 1rem;
+
+}
+
+.list-of-specials p:nth-of-type(2n+1){
+	font-style:normal;
+}
+
+.list-of-specials p:nth-of-type(2n){
+	font-style:italic;
+}
+
+
+.list-of-specials h2 {
+	font-size: 1.35rem;
+	margin-top: 0;
+}
+
+.list-of-specials h3:first-of-type {
+	margin-top: 1rem;
+}
+
+.list-of-specials p{
+	font-style: normal;
+}
+
+.drink-grid {
+	display: flex;
+	justify-content: space-between;
+	width: 960px;
+}
+
+.drink-column {
+	width: 25%;
+}
+
+.drink-grid h3 {
+	display: inline-block;
+	margin-bottom: .5rem;
+	border-bottom: 1px solid black;
+}
+
+.drink-grid p {
+	margin-bottom: 1rem;
+}
+/* 
+.hot{
+	padding-left: 4rem;
+	width: 28%
+} */
