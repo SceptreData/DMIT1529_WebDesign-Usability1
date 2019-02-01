@@ -1,0 +1,94 @@
+  body {
+    background-color: #fbfbfb;
+  }
+
+  article {
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  img {
+    float: left;
+    margin-right: 1em;
+  }
+
+  footer {
+    font-style: italic;
+    color: #777;
+  }
+
+  /*********************** Your code goes here ***********************/
+  
+  body {
+    font-size: 112.5%; /* Defaults to 18px */
+    line-height: 1.5;
+
+    /* Grid Settings */
+    background-image: linear-gradient(#0ff 1px, transparent 1px);
+    background-size: auto 1.5em;
+  
+    max-width: 31.1111111111em;
+    margin: 0 auto;
+  }
+  
+
+  h1 {
+    font-size: 4.209em; /* 75.76px */
+    line-height: 1.069165em;
+  }
+
+  h2 {
+    font-size: 3.157em; /* 56.83px  */
+    line-height: 0.9502023579em; 
+    margin-bottom: 0.4751011em;
+  }
+ 
+  h3 {  /* 42.63 */
+    font-size: 2.369em;
+    line-height: 1.2667135em;
+    margin-bottom: 0.6333567em;
+  }
+
+  h4 {
+    font-size: 1.777em;
+    line-height: 1.68855534em;
+    margin-bottom: 0.844277673em;
+  }
+
+  h5 {
+    font-size: 1.333em;
+    line-height: 0.88851851em;
+  }
+
+  p {
+    margin-bottom: 1.5em;
+  }
+  /*
+  h4 { /*31.98
+    font-size: 40.5px;
+    line-height: 54px;
+  }
+
+  h5 { 23.99
+    font-size: 27px;
+    line-height: 27px;
+  }
+
+  h6, footer{ 13.5
+    font-size: 12px;
+    line-height: 27px;
+  }
+
+  p {
+    margin-bottom: 27px;
+    max-width:540px;
+  }
+  
+  ul {
+    margin-bottom: 27px;
+  }
+
+  img {
+    margin-right: 18px;
+    margin-bottom: 18px;
+  } */
