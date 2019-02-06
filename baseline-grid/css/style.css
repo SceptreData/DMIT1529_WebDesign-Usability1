@@ -4,43 +4,55 @@ body {
 
     /* Step 2: Set our line height, which gives us grid measurement. */
     line-height: 1.5;
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 30em;
+    margin: 3em auto;
 
     font-family: 'Open Sans', sans-serif;
     /* Step 3: Choose a typographic scale. */
     /* 16 24 36 54 81 for headings */
 
     /* Step 4:  display a visual grid to follow */
-    background-image: linear-gradient(#0ff 1px, transparent 1px);
-    background-size: auto 24px;
+    /* background-image: linear-gradient(#0ff 1px, transparent 1px); */
+    background-size: auto 1.5em;
 
     padding: 48px 24px;
-}
-
-img {
-    margin-right: 24px;
-    height: 168px;
-    margin-bottom: 24px;
-    float: left;
 }
 
 /* Step 5: Style everything including the heading sizes. */
 h1 {
     /* Anytime you change the font size, you have to change line height (of element) */
-    font-size: 54px;
+    font-size: 5.0625em; /* 81 / 16 */
 
     /* Line height must be equal to or greater than fontsize. 
        It must be a multiplier of 24. (Or the size of your base-grid) */
-    line-height: 48px;
-    margin-bottom: 24px;
+    line-height: .987em;
+    margin-bottom: .2962962963em;
+}
+em {
+    color: lime;
 }
 
 h2 {
-    font-size: 36px;
-    line-height: 48px;
+    font-size: 3.375em; /* 54 / 16 */
+    line-height: 1em; /* 72 / 54 */
+    margin-bottom: .4444444444444em; /* 24 / 54*/
 }
 
+h3 {
+    font-size: 2.25em; /* 36 */
+    line-height: 1.5em; /*48  / 36 */
+}
+
+h4 {
+    font-style: 1.25em; /* 20 / 16 */
+    line-height: 1.2em; /*24 / 20 */
+}
 p {
+    margin-bottom: 1.5em; /* 24 / 16 */
+}
+img {
+    margin-right: 24px;
+    height: 168px;
     margin-bottom: 24px;
+    float: left;
 }
