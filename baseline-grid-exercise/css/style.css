@@ -27,41 +27,59 @@
     background-image: linear-gradient(#0ff 1px, transparent 1px);
     background-size: auto 1.5em;
   
-    max-width: 31.1111111111em;
+  }
+
+  article {
+    max-width: 30em;
     margin: 0 auto;
   }
-  
-
+ 
   h1 {
-    font-size: 4.209em; /* 75.76px */
-    line-height: 1.069165em;
+    font-size: 5.61em; /* 100.98 px */
+    /* line-height: 1.069518716em; 108 px or 81 */
+    line-height: .802139037433em; /*108 px or 81*/
+    margin-bottom: .2673796791em;
   }
 
   h2 {
-    font-size: 3.157em; /* 56.83px  */
-    line-height: 0.9502023579em; 
-    margin-bottom: 0.4751011em;
-  }
- 
-  h3 {  /* 42.63 */
-    font-size: 2.369em;
-    line-height: 1.2667135em;
-    margin-bottom: 0.6333567em;
+    font-size: 4.20888888889em; /* 75.76px */
+    line-height: 1.0691657866em;
+    margin-bottom: .3563885955em;/* 27 */
   }
 
-  h4 {
-    font-size: 1.777em;
-    line-height: 1.68855534em;
-    margin-bottom: 0.844277673em;
+  h3 {
+    font-size: 3.157222222em; /* 56.83px  */
+    line-height: .950202357909em;  /* 54 px */
+    margin-bottom: 0.4751011em; /* 27 px */
+  }
+ 
+  h4 {  
+    font-size: 2.369em; /* 42.63 */
+    line-height: 1.2667135819em; /* 54px */
+    margin-bottom: .6333567909em; /* 27 px */
   }
 
   h5 {
-    font-size: 1.333em;
-    line-height: 0.88851851em;
+    font-size: 1.777em; /* 31.98 px */
+    line-height: 1.68855534em; /* 54px */
+    margin-bottom: 0.844277673em; /* 27 px */
   }
 
-  p {
+  h6 {
+    font-size: 1.333em; /* 23.99px */
+    line-height: 1.1254689em; /* 27px */
+  }
+
+  p{
+    /* font-size: 1em; 18px */
+    line-height: 1.5em; /* 27px */
     margin-bottom: 1.5em;
+  }
+
+  ul {
+    font-size: 0.75em;
+    line-height: 2em;
+    margin-bottom: 2em;
   }
   /*
   h4 { /*31.98
