@@ -1,0 +1,68 @@
+body {
+  font-weight: 400;
+  font-size: 100%;
+  line-height: 150%;
+  background-image: linear-gradient(#0ff 1px, transparent 1px);
+  background-size: auto 1.5em;
+}
+
+section {
+  max-width: 60em;
+  margin: 0 auto;
+  margin-bottom: 4.5rem;
+}
+
+p {
+  max-width: 30em;
+  margin-bottom: 1.5em;
+}
+
+h1 {
+  width: 960px;
+  margin: .712800712em auto;
+  font-size: 4.209em;
+  line-height: 1.069201069201069em;
+}
+h2 {
+  font-size: 3.157em;
+  line-height: .9501187648em;
+  margin-bottom: .475059em;
+}
+/*
+
+.milkmaid p:last-child{
+  font-family: 'Merriweather', serif;
+  font-size: 1.333em;
+}
+
+.milkmaid{
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.milkmaid h2 {
+  font-family: 'Yeseva One', cursive;
+  font-size: 3.157em;
+ line-height: .9501187648em;
+  color: #569099;
+  margin-bottom: .475059em;
+}
+
+h2 span {
+  color: #89cad4;
+} */
+
+
+.fable-one h2 {
+  font-family: 'Walter Turncoat', cursive;
+}
+
+.fable-one {
+  padding: 3rem 1.5rem;
+  background: rgb(255, 122, 14);
+  font-family: 'Playfair Display', serif;
+}
+
+.fable-one p{
+  font-size: 1.25rem;
+  margin-left: 10rem;
+}
