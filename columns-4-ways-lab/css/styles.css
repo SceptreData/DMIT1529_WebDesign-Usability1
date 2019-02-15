@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: verdana;
+  font-size: 100%;
+  line-height: 1.4;
+}
+
+table, td {
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+td {
+  padding: 4px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+
+p {
+  margin-bottom: 1.5rem;
+}
+.column-count-container {
+  column-count: 2;
+  column-gap: 60px;
+  margin-bottom: 60px;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-column {
+  margin-right: 40px;
+  max-width: 600px;
+}
