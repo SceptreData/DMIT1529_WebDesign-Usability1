@@ -54,7 +54,8 @@ h2 {
 
 .fable-two {
   padding: 4rem .5rem;
-
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
   background: white;
   margin: 0 auto;
 }
@@ -87,6 +88,59 @@ h2 {
   font-family: 'Black Ops One', cursive;
 }
 
+.fable-three {
+  background: burlywood;
+  padding: 6rem .5rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.fable-three .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fable-three img {
+  width: 400px;
+  transform:rotate(12deg);
+}
+
+.fable-three h2 {
+  font-family: 'Old Standard TT', serif;
+}
+
+.reed-italics {
+  font-weight: 300;
+  font-style: italic;
+}
+
+b {
+  font-size: 18px;
+}
+
+.fable-four {
+  color: rgb(235, 230, 230);
+  background:#404042;
+  padding: 8rem 1.5rem 8rem 3rem;
+  font-family: 'Antic Slab', serif;
+}
+
+.fable-four div {
+}
+
+
+.fable-four h2 {
+  font-family: 'Cinzel Decorative', cursive;
+  margin-bottom: 3rem;
+}
+
+.fable-four p {
+  margin-left: 7rem;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  max-width: 600px;
+}
+/* Utility Classes
+------------------ */
 .center {
   max-width: 960px;
   margin: 0 auto;
