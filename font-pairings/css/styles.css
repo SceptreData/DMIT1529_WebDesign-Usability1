@@ -2,14 +2,7 @@ body {
   font-weight: 400;
   font-size: 100%;
   line-height: 150%;
-  background-image: linear-gradient(#0ff 1px, transparent 1px);
-  background-size: auto 1.5em;
-}
-
-section {
-  max-width: 60em;
-  margin: 0 auto;
-  margin-bottom: 4.5rem;
+  background: #000000;
 }
 
 p {
@@ -17,52 +10,88 @@ p {
   margin-bottom: 1.5em;
 }
 
+.starry-night {
+  height: 500px;
+  background: url(../img/milky-way2.jpg) top/contain no-repeat;
+}
+
 h1 {
-  width: 960px;
-  margin: .712800712em auto;
+  font-family: 'Charm', cursive;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
   font-size: 4.209em;
   line-height: 1.069201069201069em;
+  max-width: 1170px;
+  padding-top: 350px;
 }
 h2 {
   font-size: 3.157em;
   line-height: .9501187648em;
   margin-bottom: .475059em;
 }
-/*
 
-.milkmaid p:last-child{
-  font-family: 'Merriweather', serif;
-  font-size: 1.333em;
-}
-
-.milkmaid{
-  font-family: 'Merriweather Sans', sans-serif;
-}
-
-.milkmaid h2 {
-  font-family: 'Yeseva One', cursive;
-  font-size: 3.157em;
- line-height: .9501187648em;
-  color: #569099;
-  margin-bottom: .475059em;
-}
-
-h2 span {
-  color: #89cad4;
-} */
-
-
-.fable-one h2 {
-  font-family: 'Walter Turncoat', cursive;
-}
 
 .fable-one {
   padding: 3rem 1.5rem;
   background: rgb(255, 122, 14);
   font-family: 'Playfair Display', serif;
+  border: 15px double black;
 }
 
+.fable-one h2 {
+  font-family: 'Walter Turncoat', cursive;
+  font-size: 4rem;
+}
+
+
 .fable-one p{
-  font-size: 1.25rem;
+  font-weight: 400;
+  font-size: 1.5rem;
   margin-left: 10rem;
+  line-height: 1.5;
+}
+
+.fable-two {
+  padding: 4rem .5rem;
+
+  background: white;
+  margin: 0 auto;
+}
+
+.fable-two h2 {
+  font-size: 2.25rem;
+  max-width: 30%;
+  line-height: 1.3;
+}
+
+.lion-mouse-story {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lion-mouse-story div {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 1.15rem;
+}
+
+.mouse {
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 3rem;
+}
+
+.lion {
+  font-size: 4.5rem;
+  font-family: 'Black Ops One', cursive;
+}
+
+.center {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.bold {
+  font-weight: 700;
 }
