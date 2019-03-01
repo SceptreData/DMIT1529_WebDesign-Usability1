@@ -1,6 +1,91 @@
+/* Srisakti */
+html {
+  font-size: 18px;
+}
+
 body {
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
-  font-size: 100%;
   line-height: 150%;
+
+  /* Grid Settings */
+  background-image: linear-gradient(#0ff 1px, transparent 1px);
+  background-size: auto 1.5em;
+}
+
+/* Set our Headers to match our BaselineGrid. */
+h1 {
+  font-size: 7.993rem; /* 143.87px */
+  line-height: 9rem; /* 162px */
+  margin: 3rem auto;
+}
+
+h2 {
+  font-size: 5.653rem;  /* 101.75 */
+  line-height: 6rem; /* 108px */
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  font-size: 3.998rem;  /* 71.96px */
+  line-height: 4.5rem; /* 72px */
+  margin-bottom: 1.5rem;
+}
+
+h4 {
+  font-size: 2.827rem;  /* 50.89px */
+  line-height: 3rem; /* 54px */
+  margin-bottom: 1.5rem;
+}
+
+h5 {
+  font-size: 1.999rem;  /* 31.99 */
+  line-height: 3rem; /* 48px */
+  margin-bottom: 1.5rem;
+}
+
+h6 {
+  font-size: 1.414rem;  /* 22.62px */
+  line-height: 1.5rem; /* 24px */
+}
+
+/* Header Styles */
+
+.header-content {
+}
+
+/* Main Content */
+p {
+  width: 50ch;
+  margin-bottom: 1.5rem;
+}
+
+.about-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.about-container img {
+  width: 50ch;
+}
+
+.origin-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.appearance-content {
+  column-count: 2;
+}
+/* Utility Class */
+
+.center {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.italic {
+  font-style: italic;
 }
