@@ -55,6 +55,9 @@ h6 {
 }
 
 /* Main Content */
+section {
+  margin-bottom: 1.5rem;
+}
 p {
   width: 50ch;
   margin-bottom: 1.5rem;
@@ -76,8 +79,45 @@ p {
   justify-content: space-between;
 }
 
-.appearance-content {
-  column-count: 2;
+.appearance-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.appearance-content div{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1.5rem;
+}
+
+.appearance-content img {
+  height: 216px;
+}
+
+.age-personality-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.abilities-container {
+  margin: 0 auto;
+}
+
+.abilities-row {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.abilities-container p {
+}
+
+.abilities-quote {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.cultural-container {
 }
 /* Utility Class */
 
