@@ -1,3 +1,13 @@
+/* COLORS
+
+#3b5284
+#5ba8a0
+#cb354e
+94b447
+5d6e1e
+*/
+
+
 html {
   font-size: 18px;
 }
@@ -35,7 +45,8 @@ p {
 h1 {
   font-size: 7.993rem; /* 143.87px */
   line-height: 9rem; /* 162px */
-  margin: 3rem auto;
+  margin: 0 auto 6rem 0;
+  padding-top: 6rem;
 }
 
 h2 {
@@ -70,6 +81,11 @@ h6 {
 /***************
   HEADER STYLES
  ****************/
+header {
+  background: linear-gradient(#242038, #1FA1FF, #fff);
+  color: white;
+  margin-bottom: 4.5rem;
+}
 
 .header-content {
 }
@@ -79,7 +95,8 @@ h6 {
  *********************/
 
 section {
-  margin-bottom: 4.5rem;
+  /* margin-bottom: 4.5rem; */
+  padding-bottom: 4.5rem;
 }
 
 p {
@@ -92,10 +109,11 @@ p {
   display: flex;
   justify-content: space-between;
   margin-bottom: 1.5rem;
+  height: 30rem;
 }
 
 .about-container img {
-  width: 50ch;
+  height: 21rem;
 }
 
 .origin-content {
@@ -104,8 +122,7 @@ p {
 }
 
 .appearance-container {
-  max-width: 1200px;
-  margin: 0 auto;
+  background: linear-gradient(#fff, #2dac5f)
 }
 
 .appearance-content div{
@@ -118,12 +135,22 @@ p {
   height: 216px;
 }
 
-.age-personality-container {
+.age-personality-container{
+  background: #2dac5f;
+  color: #fff;
+}
+
+.age-personality-content {
   display: flex;
   justify-content: space-between;
 }
 
-
+.age-personality-content section {
+  padding: 1.5rem;
+  /* background: #338855; */
+  background: radial-gradient( #338855, #2dac5f 65%);
+  border-radius: 6px;
+}
 
 .abilities-row {
   margin: 0 auto;
