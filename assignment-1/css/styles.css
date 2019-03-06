@@ -1,10 +1,8 @@
-/* Srisakti */
 html {
   font-size: 18px;
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
   font-weight: 400;
   line-height: 150%;
 
@@ -13,7 +11,27 @@ body {
   background-size: auto 1.5em;
 }
 
-/* Set our Headers to match our BaselineGrid. */
+/*****************
+  Typography
+*******************/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Quintessential', cursive;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*******************************
+  Header Math for BaselineGrid
+ *******************************/
+
 h1 {
   font-size: 7.993rem; /* 143.87px */
   line-height: 9rem; /* 162px */
@@ -49,17 +67,23 @@ h6 {
   line-height: 1.5rem; /* 24px */
 }
 
-/* Header Styles */
+/***************
+  HEADER STYLES
+ ****************/
 
 .header-content {
 }
 
-/* Main Content */
+/*********************
+  MAIN CONTENT STYLES
+ *********************/
+
 section {
-  margin-bottom: 1.5rem;
+  margin-bottom: 4.5rem;
 }
+
 p {
-  width: 50ch;
+  max-width: 45ch;
   margin-bottom: 1.5rem;
 }
 
@@ -99,30 +123,112 @@ p {
   justify-content: space-between;
 }
 
-.abilities-container {
-  margin: 0 auto;
-}
+
 
 .abilities-row {
   margin: 0 auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
 }
 
-.abilities-container p {
+.abilities-col-container {
+  column-count: 2;
+  column-gap: 3rem;
 }
+.abilities-container p {
+  max-width: 48ch;
+}
+
 
 .abilities-quote {
   width: 700px;
   margin: 0 auto;
+  font-style: italic;
+  margin-bottom: 4.5rem;
+}
+
+.author-name {
+  font-weight: 500;
 }
 
 .cultural-container {
+  max-width: 1200px;
+  margin: 0 auto 4.5rem auto;
 }
+.cultural-content{
+  max-width: 100ch;
+  column-count: 2;
+  column-gap: 3rem
+}
+
+.family-flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wendy-card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wendy-card img {
+  height: 24rem;
+}
+
+.family-flex-container p {
+  max-width: 45ch;
+}
+
+.darlings-row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.captain-hook {
+  display: flex;
+  justify-content: center;
+}
+
+.captain-hook >div {
+  margin-right: 30px;
+}
+
+.captain-hook img {
+  height: 30rem;
+}
+
+.smee-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 50ch;
+  margin: 0 auto;
+}
+
+.smee-card h4 {
+  margin-bottom: 1.5rem;
+}
+
+.smee-card img {
+  margin-bottom: 1.5rem;
+}
+
 /* Utility Class */
 
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+}
 .center {
   max-width: 1200px;
+  margin: 0 auto;
+}
+
+.center-text {
+  text-align: center;
   margin: 0 auto;
 }
 
