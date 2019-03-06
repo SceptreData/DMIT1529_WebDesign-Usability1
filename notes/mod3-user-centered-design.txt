@@ -1,0 +1,10 @@
+How is the user going to engage with the content?
+
+Techniques:
+    Personas
+    User stories
+    Sketches
+    Information architecture
+    Site maps
+    wireframes
+    user testing

@@ -52,7 +52,7 @@ h1 {
 h2 {
   font-size: 5.653rem;  /* 101.75 */
   line-height: 6rem; /* 108px */
-  margin-bottom: 1.5rem;
+  margin-bottom: 3rem;
 }
 
 h3 {
@@ -82,9 +82,9 @@ h6 {
   HEADER STYLES
  ****************/
 header {
-  background: linear-gradient(#242038, #1FA1FF, #fff);
+  background: linear-gradient(#242038 20%, #1FA1FF 70%, #fff);
   color: white;
-  margin-bottom: 4.5rem;
+  margin-bottom: 6rem;
 }
 
 .header-content {
@@ -122,20 +122,36 @@ p {
 }
 
 .appearance-container {
-  background: linear-gradient(#fff, #2dac5f)
+  background: linear-gradient(#fff, #2dac5f);
+  padding-top: 3rem;
 }
 
-.appearance-content div{
+.appearance-card{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 1.5rem;
 }
 
-.appearance-content img {
-  height: 216px;
+.appearance-card img {
+  /* max-width: 27.7rem; */
+  min-height: 21rem;
+  border-radius: 5%;
+  border: 1px grey solid;
+  box-shadow:0 0 8px 0 rgb(192, 192, 192);
+}
+
+.lady-pan-img {
+  margin-right: 8rem;
+}
+
+.disney-pan-img{
+  height: 30rem;
+  width: 33rem;
 }
 
 .age-personality-container{
+  padding: 4.5rem 0 6rem 0;
   background: #2dac5f;
   color: #fff;
 }
@@ -148,8 +164,22 @@ p {
 .age-personality-content section {
   padding: 1.5rem;
   /* background: #338855; */
-  background: radial-gradient( #338855, #2dac5f 65%);
+  /* background: radial-gradient( #2c7549, #2dac5f 70%); */
   border-radius: 6px;
+}
+
+.abilities-section {
+  color: rgb(238, 238, 238);
+  background: #2dac5f;
+}
+
+.abilities-section h3 {
+  color: white;
+}
+
+.abilities-container {
+  padding-top: 4.5rem;
+  padding-bottom: 9rem;
 }
 
 .abilities-row {
@@ -163,12 +193,13 @@ p {
   column-count: 2;
   column-gap: 3rem;
 }
+
 .abilities-container p {
   max-width: 48ch;
 }
 
-
 .abilities-quote {
+  color: white;
   width: 700px;
   margin: 0 auto;
   font-style: italic;
@@ -180,15 +211,24 @@ p {
 }
 
 .cultural-container {
-  max-width: 1200px;
-  margin: 0 auto 4.5rem auto;
+  background: linear-gradient(#2dac5f, #fff 85%);
 }
+
 .cultural-content{
   max-width: 100ch;
   column-count: 2;
-  column-gap: 3rem
+  column-gap: 3rem;
+  padding-bottom: 4.5rem;
 }
 
+.relationships-section {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.maimie-card {
+  margin-bottom: 4.5rem;
+}
 .family-flex-container {
   display: flex;
   justify-content: space-between;
@@ -201,7 +241,8 @@ p {
 }
 
 .wendy-card img {
-  height: 24rem;
+  height: 30rem;
+  margin-right: 10rem;
 }
 
 .family-flex-container p {
@@ -213,9 +254,14 @@ p {
   justify-content: space-between;
 }
 
+.adversaries-container{
+  background: linear-gradient(#fff, #1FA1FF, #242038);
+}
+
 .captain-hook {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .captain-hook >div {
@@ -239,9 +285,14 @@ p {
   margin-bottom: 1.5rem;
 }
 
+.smee-card p {
+  color: white;
+}
+
 .smee-card img {
   margin-bottom: 1.5rem;
 }
+
 
 /* Utility Class */
 
@@ -251,7 +302,8 @@ p {
 }
 .center {
   max-width: 1200px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .center-text {
